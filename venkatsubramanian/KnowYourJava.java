@@ -29,7 +29,7 @@ public class KnowYourJava {
            try{
                weekdays.add("Thursday");
            }catch (Exception e){
-               System.out.println("asList while being immutable doesn't allow add operation " +
+               System.out.println("Exception occured!!! asList while being immutable doesn't allow add operation " +
                        "but allows set operation");
            }
            try{
